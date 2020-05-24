@@ -1,4 +1,4 @@
-function Question(question, answers, correctA) {
+(function() {function Question(question, answers, correctA) {
   this.question = question;
   this.answers = answers;
   this.correctA = correctA;
@@ -43,3 +43,4 @@ questions[qToLog].askQuestion();
 var answer = parseInt(prompt("Please enter your answer"));
 
 questions[qToLog].checkAnswer(answer);
+           }) ()
